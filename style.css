@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    background-image: url(./img/Circle.png);
+
+}
+nav{
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 125px;
+}
+nav ul li a{
+    color: #999FAE;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+nav ul li 
+.first_word:hover {
+    border-bottom: 1px solid #5956E9;
+    color: #292930;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+nav ul{
+    display: flex;
+    gap: 55px;
+    
+}
+nav ul li a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+.logo{
+    margin-left: 118px;
+    margin-right: 59px;
+    margin-top: -45px;
+}
+.search{
+    margin-left: 440px;
+    margin-right: 40px;
+}
+nav button{
+    padding: 24px 47px;
+    border-radius: 20px;
+    background: #FAB8C4;
+    border: #FAB8C4;
+    color: #2522BA;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+/* ************ end navbar ********** */
+
+.left_side span{
+    display: inline-block;
+    width: 80px;
+    border-bottom: 8px solid #5956E9;
+}
+.left_side{
+    width: 20%;
+    margin-left: 150px;
+    /* margin-bottom: ; */
+}
+.left_side h1{
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99.327%; /* 95.354px */
+    letter-spacing: -2.4px;
+    margin-bottom: 24px;
+}
+.pp{
+    color: #999FAE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.buttons{
+    display: flex;
+    
+    align-items: center;
+}
+.buttons button{
+    padding: 29px 46px;
+    border-radius: 20px;
+    background-color: #5956E9;
+    border: #5956E9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    margin-top: 40px;
+}
+.buttons img{
+    margin-top: 35px;
+    margin-left: 32px;
+    margin-right: 16px;
+}
+.buttons p{
+    margin-top: 40px;
+}
+
+.right_side{
+    margin-left: 620px;
+    margin-top: -600px;
+}
